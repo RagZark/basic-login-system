@@ -12,7 +12,14 @@ defined('CONTROL') or die('Acesso negado!');
 </head>
 
 <body>
-    <h3>Estou dentro da aplicação!</h3>
+    <h3>Bem-vindo a aplicação!</h3>
+    <br>
+    <span>Usuário: <strong><?= $_SESSION['usuario'] ?></strong></span>
+    <span>
+        <a href="?rota=logout">Sair</a>
+        <hr>
+        [conteudo]
+    </span>
 </body>
 
 </html>
