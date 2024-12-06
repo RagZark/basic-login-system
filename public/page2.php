@@ -1,5 +1,9 @@
 <?php
 defined('CONTROL') or die('Acesso negado!');
+require_once "./importStyle.php";
+
+$components = new Components();
+
 ?>
 
 <!DOCTYPE html>
@@ -8,6 +12,7 @@ defined('CONTROL') or die('Acesso negado!');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?= $components->create_css(); ?>
     <title>Pagina 2</title>
 </head>
 
