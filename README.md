@@ -9,6 +9,9 @@ Este projeto foi desenvolvido utilizando ferramentas simples do PHP para impleme
 
 Para a estilização do projeto, utilizamos o framework **Bulma** para CSS, proporcionando um design limpo e responsivo.
 
+login: usuario1@gmail.com <br>
+password: senha001
+
 <br><br>
 
 # EN
@@ -21,3 +24,8 @@ This project was developed using basic PHP tools to implement the following feat
 - **Dynamic Pages**: Creation of a few pages accessible after login.  
 
 For styling, we used the **Bulma** CSS framework, ensuring a clean and responsive design.
+
+
+login: usuario1@gmail.com <br>
+password: senha001
+
